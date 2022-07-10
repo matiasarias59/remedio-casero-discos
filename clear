@@ -1,0 +1,23 @@
+[33mcommit ccd1efdc008d43e6d8aae037b838ae9654270343[m[33m ([m[1;36mHEAD -> [m[1;32manimaciones[m[33m, [m[1;31morigin/animaciones[m[33m)[m
+Author: Matias Arias <matiasarias59@gmail.com>
+Date:   Sat Jul 9 21:54:19 2022 -0300
+
+    Transicion en items menu
+
+[33mcommit 37fc96339a2bb95348a9da09a908af6067f68bb7[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Matias Arias <matiasarias59@gmail.com>
+Date:   Sat Jul 9 21:46:31 2022 -0300
+
+    Correcion border radius menu
+
+[33mcommit 8bd1749f271ad5e264445b3673068c8e8a7dd5a4[m
+Author: Matias Arias <matiasarias59@gmail.com>
+Date:   Tue Jul 5 22:25:53 2022 -0300
+
+    Cambie background-color al body
+
+[33mcommit fe174aa20c065df3d2fd2b0bf03c6f8b70d770fc[m
+Author: Matias Arias <matiasarias59@gmail.com>
+Date:   Tue Jul 5 21:13:20 2022 -0300
+
+    Primera version del repositorio

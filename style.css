@@ -95,11 +95,30 @@ body{
     color: white;
     text-align: center;
     margin: 3%;
+    opacity: 0;
+    animation: titulo 5s 1s 1 forwards;
+}
+
+@keyframes titulo {
+    100%{
+        opacity: 1;
+    }
+    
 }
 
 .main__content__vid{  /* Contenedor video  */
     width: fit-content;
     margin: auto;
+    position: relative;
+    left: -100%;
+    animation: video_translate 0.8s 1s 1 forwards;
+}
+
+@keyframes video_translate {
+    100%{
+        left: 0%;
+    }
+    
 }
 
 .main__content__vid iframe{ /* Video Main */
@@ -125,6 +144,14 @@ body{
     color: white;
     text-shadow: 5px 5px 10px black;
     margin: 2%;
+    animation: suscribite_anim 1s infinite alternate;
+}
+
+@keyframes suscribite_anim {
+    100%{
+        transform: scale(1.1);
+    }
+    
 }
 
 /* ----------------------------------------------------- */
