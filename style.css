@@ -67,11 +67,15 @@ body{
     font-size: 1.5rem;
     padding: 1% 2%;
     border-radius: 4rem;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
     
 }
 
 .header__menu__list__item:hover{ /* Resaltado de Links Menu */
-    background-color: rgba(69, 69, 70, 0.096);
+    background-color: rgba(69, 69, 70, 0.15);
+
 }
 
 .header__menu__list__item a { /* Quita subrayado a link y color de fuente */
