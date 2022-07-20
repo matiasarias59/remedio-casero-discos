@@ -1,0 +1,11 @@
+.body{
+    min-height: 100vh;
+    background: {
+        image: url("./img/background.jpg");
+        repeat: no-repeat;
+        size: cover;
+        attachment: fixed;
+        color: rgb(61, 61, 61);
+    }
+    
+}
