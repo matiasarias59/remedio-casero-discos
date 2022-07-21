@@ -3,7 +3,7 @@
         
         &__tittle{/* Titulo */
             font: {
-                family: 'Anton', sans-serif;
+                family: $tittleFont;
                 size: 4rem;
                 weight: 200;
             }
@@ -30,7 +30,7 @@
         }
         
         &__form{/* Contenedor Form suscribite */
-            background-color: rgba(255, 255, 255, 0.15);
+            background-color: $bannerBg-color;
             height: fit-content;
             text-align: center;
             padding-bottom: 1%;
@@ -39,7 +39,7 @@
             &__txt{/* Texto Suscribite */
                 display: inline-block;
                 font: {
-                    family: 'Anton', sans-serif; 
+                    family: $tittleFont; 
                     size: 2.5rem;
                     weight: 200;
                 }
