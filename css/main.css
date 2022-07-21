@@ -89,6 +89,30 @@ body {
   .band__rrss__icon {
     width: 1.5rem; }
 
+.about__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.cont__form {
+  /* Contenedor Formulario */
+  background-color: rgba(255, 255, 255, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 30px auto;
+  border-radius: 10px; }
+  .cont__form__div {
+    /* Contenedor Checkbox */
+    display: flex;
+    flex-direction: row; }
+  .cont__form__label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 0.5rem; }
+
 @keyframes titulo {
   100% {
     opacity: 1; } }

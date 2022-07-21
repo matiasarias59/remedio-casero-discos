@@ -1,0 +1,26 @@
+.cont{
+    &__form{ /* Contenedor Formulario */
+        background-color: rgba(255, 255, 255, 0.15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 30px auto;
+        border-radius: 10px;
+
+        &__div{ /* Contenedor Checkbox */
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        &__label{
+            font: {
+                family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                size: 1.5rem;
+            }
+            color: rgb(255, 255, 255);
+            margin: 0 0.5rem;
+        }
+    }
+}
