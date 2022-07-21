@@ -1,0 +1,53 @@
+.main{
+    &__content{
+        /* Titulo */
+        &__tittle{
+            font: {
+                family: 'Anton', sans-serif;
+                size: 4rem;
+                weight: 200;
+            }
+            letter-spacing: 0.5rem;
+            color: white;
+            text-align: center;
+            margin: 3%;
+            opacity: 0;
+            animation: titulo 5s 1s 1 forwards;
+        }
+        /* Contenedor video  */
+        &vid{
+            width: fit-content;
+            margin: auto;
+            position: relative;
+            left: -100%;
+            animation: video_translate 0.8s 1s 1 forwards;
+                /* Video Main */
+                iframe{
+                    width: 60vw;
+                    height: 40vw;
+                }
+            }
+        }
+        /* Contenedor Form suscribite */
+        &__form{
+            background-color: rgba(255, 255, 255, 0.15);
+            height: fit-content;
+            text-align: center;
+            padding-bottom: 1%;
+            margin: 2rem 0;
+
+            &__txt{
+                display: inline-block;
+                font: {
+                    family: 'Anton', sans-serif; 
+                    size: 2.5rem;
+                    weight: 200;
+                }
+                letter-spacing: 3px;
+                color: white;
+                text-shadow: 5px 5px 10px black;
+                margin: 2%;
+                animation: suscribite_anim 1s infinite alternate;
+            }
+        }
+    }
