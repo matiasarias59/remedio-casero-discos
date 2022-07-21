@@ -75,6 +75,20 @@ body {
     font-size: 1rem;
     color: black; }
 
+.main__artist {
+  display: flex;
+  flex-direction: column; }
+
+.band__rrss {
+  display: flex;
+  height: fit-content;
+  justify-content: space-evenly;
+  padding: 0 20%; }
+  .band__rrss__item {
+    list-style: none; }
+  .band__rrss__icon {
+    width: 1.5rem; }
+
 @keyframes titulo {
   100% {
     opacity: 1; } }
