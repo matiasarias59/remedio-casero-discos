@@ -1,7 +1,7 @@
 /* imagen de fondo */
-.body {
+body {
   min-height: 100vh;
-  background-image: url("./img/background.jpg");
+  background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
