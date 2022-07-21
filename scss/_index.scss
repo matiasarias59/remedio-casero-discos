@@ -1,7 +1,7 @@
 .main{
     &__content{
-        /* Titulo */
-        &__tittle{
+        
+        &__tittle{/* Titulo */
             font: {
                 family: 'Anton', sans-serif;
                 size: 4rem;
@@ -14,29 +14,29 @@
             opacity: 0;
             animation: titulo 5s 1s 1 forwards;
         }
-        /* Contenedor video  */
-        &vid{
+        
+        &__vid{/* Contenedor video  */
             width: fit-content;
             margin: auto;
             position: relative;
             left: -100%;
             animation: video_translate 0.8s 1s 1 forwards;
-                /* Video Main */
-                iframe{
+                
+                iframe{/* Video Main */
                     width: 60vw;
                     height: 40vw;
                 }
             }
         }
-        /* Contenedor Form suscribite */
-        &__form{
+        
+        &__form{/* Contenedor Form suscribite */
             background-color: rgba(255, 255, 255, 0.15);
             height: fit-content;
             text-align: center;
             padding-bottom: 1%;
             margin: 2rem 0;
-
-            &__txt{
+            
+            &__txt{/* Texto Suscribite */
                 display: inline-block;
                 font: {
                     family: 'Anton', sans-serif; 

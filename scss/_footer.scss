@@ -1,0 +1,31 @@
+/* footer */
+
+
+.footer{/* contenedor fondo */
+    background-color: rgba(255, 255, 255, 0.767);
+    text-align: center;
+    margin-top: 3rem;
+    
+    &__rrss{/* Alineacion de iconos Redes Sociales */
+        display: flex;
+        justify-content: center;
+        
+        &__itm{/* Quita los puntos de la lista */
+            list-style: none;
+        }
+        
+        &__icon{/* Iconos RRSS */
+            width: 1.5rem;
+            margin: 0.5rem;
+        }
+    }
+
+    p{
+        font: {
+            family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            size: 1rem;
+        }
+        color: black;
+
+    }
+}
