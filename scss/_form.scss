@@ -15,10 +15,7 @@
         }
 
         &__label{
-            font: {
-                family: $secondFont;
-                size: 1.5rem;
-            }
+            @include fontFamilySize($secondFont,1.5rem);   
             color: rgb(255, 255, 255);
             margin: 0 0.5rem;
         }

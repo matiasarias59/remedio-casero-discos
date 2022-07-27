@@ -2,11 +2,8 @@
     &__content{
         
         &__tittle{/* Titulo */
-            font: {
-                family: $tittleFont;
-                size: 4rem;
-                weight: 200;
-            }
+            @include fontFamilySize($tittleFont,2.5rem);                    
+            font-weight: 200;
             letter-spacing: 0.5rem;
             color: white;
             text-align: center;
@@ -38,11 +35,8 @@
             
             &__txt{/* Texto Suscribite */
                 display: inline-block;
-                font: {
-                    family: $tittleFont; 
-                    size: 2.5rem;
-                    weight: 200;
-                }
+                @include fontFamilySize($tittleFont,2.5rem);                    
+                font-weight: 200;
                 letter-spacing: 3px;
                 color: white;
                 text-shadow: 5px 5px 10px black;
