@@ -7,8 +7,7 @@
     margin-top: 3rem;
     
     &__rrss{/* Alineacion de iconos Redes Sociales */
-        display: flex;
-        justify-content: center;
+        @extend %dp-flex-jc-center;
         
         &__itm{/* Quita los puntos de la lista */
             list-style: none;

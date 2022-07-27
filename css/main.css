@@ -1,3 +1,7 @@
+.footer__rrss, .cont__form {
+  display: flex;
+  justify-content: center; }
+
 /* imagen de fondo */
 body {
   min-height: 100vh;
@@ -60,9 +64,7 @@ body {
   text-align: center;
   margin-top: 3rem; }
   .footer__rrss {
-    /* Alineacion de iconos Redes Sociales */
-    display: flex;
-    justify-content: center; }
+    /* Alineacion de iconos Redes Sociales */ }
     .footer__rrss__itm {
       /* Quita los puntos de la lista */
       list-style: none; }
@@ -97,8 +99,6 @@ body {
 .cont__form {
   /* Contenedor Formulario */
   background-color: rgba(255, 255, 255, 0.767);
-  display: flex;
-  justify-content: center;
   align-items: center;
   width: 50%;
   margin: 30px auto;

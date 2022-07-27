@@ -1,8 +1,8 @@
 .cont{
     &__form{ /* Contenedor Formulario */
+        @extend %dp-flex-jc-center;
         background-color: $bannerBg-color;
-        display: flex;
-        justify-content: center;
+        
         align-items: center;
         width: 50%;
         margin: 30px auto;
