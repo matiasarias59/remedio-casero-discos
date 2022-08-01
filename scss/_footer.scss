@@ -6,7 +6,7 @@
     text-align: center;
     margin-top: 3rem;
     
-    &__rrss{/* Alineacion de iconos Redes Sociales */
+    &__rrss{
         @extend %dp-flex-jc-center;
         
         &__itm{/* Quita los puntos de la lista */
