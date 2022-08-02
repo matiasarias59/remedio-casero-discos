@@ -35,12 +35,11 @@
             
             &__txt{/* Texto Suscribite */
                 display: inline-block;
-                @include fontFamilySize($tittleFont,2.5rem);                    
+                @include fontFamilySize($tittleFont,2.5rem);                  
                 font-weight: 200;
-                letter-spacing: 3px;
+                letter-spacing: 1px;
                 color: white;
                 text-shadow: 5px 5px 10px black;
-                margin: 2%;
                 animation: suscribite_anim 1s infinite alternate;
             }
         }
